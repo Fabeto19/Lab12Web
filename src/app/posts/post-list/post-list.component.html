@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let post of posts">
+    {{ post.id }} - {{ post.title }}
+    <button (click)="showPostDetails(post.id)">Ver detalles</button>
+  </li>
+</ul>
